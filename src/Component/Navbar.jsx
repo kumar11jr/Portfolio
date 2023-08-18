@@ -10,7 +10,7 @@ const Navbar = (props) => {
             <ul className="flex items-center">
               <li>
                 <a className="m-16 relative group">
-                  <span>Home</span>
+                  <span>Homee</span>
                   <span className="absolute -bottom-1 right-0 w-0 h-2 bg-blue-400 group-hover:w-full group-hover:transition-duration-200"></span>
                 </a>
               </li>
