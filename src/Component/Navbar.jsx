@@ -7,11 +7,11 @@ const Navbar = (props) => {
     <>
       <div className="">
         <div className="mx-5 md:px-20 lg:px-30 ">
-          <nav className="py-8 mb-60 flex justify-between nav">
-            <h1 className="text-3xl font-bold">KR18</h1>
+          <nav className="py-4 mb-60 flex justify-between nav">
+            <h1 className="text-3xl font-bold font-serif">KR18</h1>
             <ul className="flex items-center">
               <li>
-              <Link className=" text-xl font-serif hover:text-teal-700 transition duration-300 ease-in-out"
+              <Link className=" text-xl font-serif cursor-pointer hover:text-teal-700 transition duration-300 ease-in-out"
               activeClass="active" 
               to="home" 
               spy={true} 
@@ -21,7 +21,7 @@ const Navbar = (props) => {
               </Link> 
               </li>
               <li>
-              <Link className="mx-8 text-xl font-serif hover:text-teal-700 transition duration-300 ease-in-out"
+              <Link className="mx-8 text-xl font-serif cursor-pointer hover:text-teal-700 transition duration-300 ease-in-out"
               activeClass="active" 
               to="service" 
               spy={true} 
@@ -31,7 +31,7 @@ const Navbar = (props) => {
               </Link> 
               </li>
               <li>
-              <Link className="mx-8 text-xl font-serif hover:text-teal-700 transition duration-300 ease-in-out"
+              <Link className="mx-8 text-xl font-serif cursor-pointer hover:text-teal-700 transition duration-300 ease-in-out"
               activeClass="active" 
               to="project" 
               spy={true} 
@@ -41,7 +41,7 @@ const Navbar = (props) => {
               </Link> 
               </li>
               <li>
-              <Link className="mx-8 text-xl font-serif hover:text-teal-700 transition duration-300 ease-in-out"
+              <Link className="mx-8 text-xl font-serif cursor-pointer hover:text-teal-700 transition duration-300 ease-in-out"
               activeClass="active" 
               to="myskills" 
               spy={true} 
@@ -51,7 +51,7 @@ const Navbar = (props) => {
               </Link> 
               </li>
               <li>
-              <Link className="mx-8 text-xl font-serif hover:text-teal-700 transition duration-300 ease-in-out"
+              <Link className="mx-8 text-xl font-serif cursor-pointer hover:text-teal-700 transition duration-300 ease-in-out"
               activeClass="active" 
               to="contact" 
               spy={true} 

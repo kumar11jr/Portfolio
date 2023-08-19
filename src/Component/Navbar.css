@@ -1,7 +1,8 @@
 /* Style the background container */
 .nav{
   position: fixed;  
-  
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   top: 0;
   display: flex;
   justify-content: space-between;

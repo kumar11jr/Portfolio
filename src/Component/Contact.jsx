@@ -61,7 +61,7 @@ const Contact = () => {
     <label class="block text-gray-700 font-medium mb-2" for="name">
       Name
     </label>
-    <input className="border border-teal-700 p-2 w-full bg-[#6b6d6f] rounded-xl "
+    <input className="border border-teal-700 p-2 w-full bg-transparent rounded-xl "
       type="text"
       id="name"
       name="name"
@@ -76,7 +76,7 @@ const Contact = () => {
       Email
     </label>
     <input
-      class="border border-teal-700 p-2 w-full rounded-xl bg-[#6b6d6f]"
+      class="border border-teal-700 p-2 w-full rounded-xl bg-transparent"
       type="email"
       id="email"
       name="email"
@@ -91,7 +91,7 @@ const Contact = () => {
       Message
     </label>
     <textarea
-      class="border border-teal-700 p-2 w-full rounded-xl bg-[#6b6d6f]"
+      class="border border-teal-700 p-2 w-full rounded-xl bg-transparent"
       id="message"
       name="message"
       rows="4"
