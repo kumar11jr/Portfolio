@@ -23,8 +23,8 @@ const Home = () => {
 
   return ( 
     <>
-      <div>
-        <div className="mx-5 md:px-20 lg:px-25 lg:py-20">
+      <div id="home">
+        <div className="mx-5 md:px-20 lg:px-25 lg:py-40">
           <div className="text-center p-4">
             <h2 className="text-5xl text-teal-700 font-medium" id="demo"></h2>
             <h3 className="text-2xl py-2 leading-8 text-grey-200">

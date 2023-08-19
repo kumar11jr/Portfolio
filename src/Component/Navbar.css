@@ -1,0 +1,12 @@
+/* Style the background container */
+.nav{
+  position: fixed;  
+  
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  z-index: 1;
+  transition-timing-function:ease-in ;
+  transition: all 0.5s;
+}

@@ -5,7 +5,7 @@ import cloud from "./../assets/images/cloudy.png"
 const Work = () => {
   return (
     <>
-      <div>
+      <div id="project">
         <div className="mx-5 md:px-20 lg:px-30 lg:py-10 md:py-10">
           <div className="py-5">
             <h3 className="text-3xl text-teal-700 font-medium">My Projects</h3>

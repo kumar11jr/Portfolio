@@ -8,7 +8,7 @@ import database from "./../assets/images/database.png"
 const MySkills = () => {
   return (
     <>
-      <div>
+      <div id="myskills">
         <div className="mx-5 md:px-20 lg:px-30 lg:py-10 md:py-10">
           <div className="py-5">
             <h3 className="text-3xl text-teal-700 font-medium">My Skills</h3>

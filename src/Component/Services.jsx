@@ -5,7 +5,7 @@ import science from "./../assets/images/science.png"
 const Services = () => {
   return (
     <>
-      <div>
+      <div id="service">
         <div className="mx-5 md:px-20 lg:px-25 lg:py-10 md:py-10">
           <div className="py-5">
             <h3 className="text-3xl text-teal-700 font-medium">
