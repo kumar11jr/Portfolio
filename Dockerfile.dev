@@ -1,0 +1,20 @@
+# Use a smaller base image for Node.js (Alpine Linux)
+FROM node:alpine
+
+# Set the working directory within the container
+WORKDIR /app
+
+# Copy package.json and package-lock.json (if present) to /app
+COPY package*.json ./
+
+# Install dependencies (this step is separated to benefit from Docker layer caching)
+RUN npm install
+
+# Copy the entire application source code to /app
+COPY . .
+
+# Expose the port your application will run on (if necessary)
+# EXPOSE 3000
+
+# Define the command to run your application
+CMD ["npm", "start"]

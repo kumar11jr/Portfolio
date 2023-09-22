@@ -1,6 +1,6 @@
 /* Style the background container */
-.nav{
-  position: fixed;  
+.nav {
+  position: fixed;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
   top: 0;
@@ -8,6 +8,22 @@
   justify-content: space-between;
   width: 90%;
   z-index: 1;
-  transition-timing-function:ease-in ;
+  transition-timing-function: ease-in;
   transition: all 0.5s;
+}
+
+/* Style the night mode icon */
+.light,
+.dark {
+  margin-right: 1rem; /* Move the icon to the right by adding right margin */
+}
+
+/* Media query for small screens */
+@media (max-width: 768px) {
+  /* Move the icon to the right for small screens */
+  .light,
+  .dark {
+    margin-right: 1rem; /* Adjust the margin as needed for small screens */
+    margin-left: 0; /* Remove left margin for small screens */
+  }
 }
