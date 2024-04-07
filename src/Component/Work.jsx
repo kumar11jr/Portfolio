@@ -1,7 +1,7 @@
 import React from "react";
-import facebook from "./../assets/images/facebook.png"
+import workspace from "./../assets/images/images-removebg-preview.png"
 import database from "./../assets/images/database.png"
-import cloud from "./../assets/images/cloudy.png"
+import globalbrief from "./../assets/images/globalbrief.png"
 const Work = () => {
   return (
     <>
@@ -27,18 +27,18 @@ const Work = () => {
               <div className="text-center shadow-2xl p-10 rounded-xl ">
                 <img
                   style={{ display: "block", margin: "0px auto" }}
-                  width={100}
-                  src={facebook}
-                  alt="facebook"
+                  width={120}
+                  src={workspace}
+                  alt="workspace"
                 />
                 <h3 className="text-lg font-medium pt-8 pb-2">
-                  Facebook Clone
+                  WorkSpace
                 </h3>
-                <p>Created a landing page of facebook using Html,Css.</p>
+                <p>A workspace where users can manage their works.</p>
                 <div className="pt-4 transition ease-in-out delay-200 hover:scale-110">
                   <a
                     className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-2 rounded-md  "
-                    href="https://github.com/kumar11jr/Facebook."
+                    href="https://github.com/kumar11jr/workspace"
                   >
                     Source Code
                   </a>
@@ -54,13 +54,13 @@ const Work = () => {
                   alt="database"
                 />
                 <h3 className="text-lg font-medium pt-8 pb-2">
-                  Employee Management
+                  TapBio
                 </h3>
-                <p>Employee Management using React and Firebase.</p>
+                <p>A OpenSource link where all link can me managed in one link</p>
                 <div className="pt-4 transition ease-in-out delay-200  hover:scale-110">
                   <a
                     className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-2 rounded-md "
-                    href="https://github.com/kumar11jr/Employee-management-system-with-database"
+                    href="https://github.com/kumar11jr/tapbio"
                   >
                     Source Code
                   </a>
@@ -71,16 +71,16 @@ const Work = () => {
               <div className="text-center shadow-2xl p-10 rounded-xl ">
                 <img
                   style={{ display: "block", margin: "0px auto" }}
-                  width={100}
-                  src={cloud}
+                  width={130}
+                  src={globalbrief}
                   alt="cloud"
                 />
-                <h3 className="text-lg font-medium pt-8 pb-2">Weather App</h3>
-                <p>Get Weather info of any state using Javascript,Api.</p>
+                <h3 className="text-lg font-medium pt-8 pb-2">GlobalBrief</h3>
+                <p>Get news info of the world using typescript,Api.</p>
                 <div className="pt-4 transition ease-in-out delay-200  hover:scale-110">
                   <a
                     className="bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-2 py-2 rounded-md "
-                    href="https://github.com/kumar11jr/Weather-app-using-API"
+                    href="https://github.com/kumar11jr/GlobalBrief"
                   >
                     Source Code
                   </a>

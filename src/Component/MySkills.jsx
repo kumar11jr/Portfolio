@@ -1,6 +1,6 @@
 import React from "react";
-import html from "./../assets/images/html-5.png"
-import css from "./../assets/images/css-3.png"
+import next from "./../assets/images/next.png"
+import ts from "./../assets/images/ts.webp"
 import js from "./../assets/images/js.png"
 import java from "./../assets/images/java.png"
 import react1 from "./../assets/images/react1.png"
@@ -18,15 +18,15 @@ const MySkills = () => {
               <img
                 style={{ display: "block", margin: "0px auto" }}
                 width={100}
-                src={html}
-                alt="html"
+                src={next}
+                alt="next"
               />
             </div>
             <div className="my-10">
               <img
                 style={{ display: "block", margin: "0px auto" }}
                 width={100}
-                src={css}
+                src={ts}
                 alt=""
               />
             </div>

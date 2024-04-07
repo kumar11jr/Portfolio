@@ -9,7 +9,7 @@ const Services = () => {
         <div className="mx-5 md:px-20 lg:px-25 lg:py-10 md:py-10">
           <div className="py-5">
             <h3 className="text-3xl text-teal-700 font-medium">
-              Services offered
+              Services
             </h3>
             <p className="text-md py-4">
               Make any project with me or any kind of help in the following
